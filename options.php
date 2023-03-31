@@ -15,6 +15,7 @@
     </form>
 
     <?php
+      echo "This script is being executed!";
       if(isset($_GET['option'])) {
         $selectedOption = $_GET['option'];
         if($selectedOption == 'option1') {
